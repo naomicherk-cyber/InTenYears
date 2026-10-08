@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InTenYears.InTenYears1"
+             Title="InTenYears1"
+              BackgroundColor="Blue">
+
+    <Grid RowDefinitions="*,*" Margin="10">
+        <Label TextColor="AliceBlue" Text="lala" Grid.Row="0" x:Name="xyz"/>
+        <VerticalStackLayout  Spacing="10" Grid.Row="1" VerticalOptions="End">
+            <Label Text="Your Name"/> 
+            <Entry/>
+            <Label Text="Your age"/>
+            <Entry/>
+            <Button Clicked="Button_Clicked" Text="Calculate" BackgroundColor="Pink"/> 
+            
+        </VerticalStackLayout>
+        
+    </Grid>
+  
+</ContentPage>
