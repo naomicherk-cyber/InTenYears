@@ -9,7 +9,8 @@
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            return new Window(new InTenYears1());
+            return new Window(new InTenYearsSlider());
         }
+      
     }
 }
